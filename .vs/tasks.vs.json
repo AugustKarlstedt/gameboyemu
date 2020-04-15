@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-gameboyemu",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-makefile",
+      "appliesTo": "makefile",
+      "type": "launch"
+    }
+  ]
+}
