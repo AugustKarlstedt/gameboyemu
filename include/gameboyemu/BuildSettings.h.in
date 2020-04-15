@@ -1,7 +1,0 @@
-#ifndef __BuildSettings_H_
-#define __BuildSettings_H_
-
-#define VERSION_MAJOR @gameboyemu_VERSION_MAJOR@
-#define VERSION_MINOR @gameboyemu_VERSION_MINOR@
-
-#endif
