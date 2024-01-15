@@ -10,7 +10,8 @@ Test roms:
 GameBoy CPU manual:
 - http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf
 
-Good info on Z80: - http://z80-heaven.wikidot.com/flags-and-bit-level-instructions
+Good info on Z80: 
+- http://z80-heaven.wikidot.com/flags-and-bit-level-instructions
 
 Diagram:
 - https://www.copetti.org/writings/consoles/game-boy/
