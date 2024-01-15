@@ -1,13 +1,23 @@
-Instruction set: https://www.pastraiser.com/cpu/gameboy/gameboy_opcodes.html
-First ROM to implement: https://gbdev.gg8.se/wiki/articles/Gameboy_Bootstrap_ROM#Contents_of_the_ROM
-Test roms: https://github.com/retrio/gb-test-roms
+Instruction set:
+- https://www.pastraiser.com/cpu/gameboy/gameboy_opcodes.html
 
-GameBoy CPU manual: http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf
-Good info on Z80: http://z80-heaven.wikidot.com/flags-and-bit-level-instructions
+First ROM to implement:
+- https://gbdev.gg8.se/wiki/articles/Gameboy_Bootstrap_ROM#Contents_of_the_ROM
 
+Test roms:
+- https://github.com/retrio/gb-test-roms
+
+GameBoy CPU manual:
+- http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf
+
+Good info on Z80: - http://z80-heaven.wikidot.com/flags-and-bit-level-instructions
+
+Diagram:
+- https://www.copetti.org/writings/consoles/game-boy/
 
 ==Scratchpad==
 
+```
 0x80 = 1000 0000
 0xF3 = 1111 0011
 0x77 = 0111 0111
@@ -37,3 +47,4 @@ INC C			; $0082					  C = 0x14
 LD A,$87		; $0083					  A = 0x87
 LD ($FF00+C),A	; $0085					  memory[0xFF00+0x14] = 0x87				sound mode 1 register: frequency hi + enable consecutive
 
+```
