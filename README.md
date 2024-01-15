@@ -1,3 +1,7 @@
+![Nintendo Logo)
+](https://augustkarlstedt.github.io/wp-content/uploads/2020/04/nintendo.gif)
+https://augustkarlstedt.github.io/blog/2020/04/17/emulators-are-cool/
+
 Instruction set:
 - https://www.pastraiser.com/cpu/gameboy/gameboy_opcodes.html
 
